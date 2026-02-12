@@ -1,0 +1,47 @@
+.dorm-list {
+  width: 100%;
+}
+
+.dorm-list-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.dorm-list-header h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.dorm-list-header p {
+  font-size: 1.1rem;
+  opacity: 0.95;
+}
+
+.dorm-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.dorm-list-empty {
+  text-align: center;
+  color: white;
+  padding: 3rem;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .dorm-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .dorm-list-header h2 {
+    font-size: 1.5rem;
+  }
+}
+
+
