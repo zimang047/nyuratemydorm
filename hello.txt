@@ -1,0 +1,2 @@
+git add . = stage all the changes in the repo
+git add hello.txt = stage the changes in hello.txt only
